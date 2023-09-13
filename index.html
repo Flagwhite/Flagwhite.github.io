@@ -1,21 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+        <title>Flagwhite Menu</title>
         <style>
-           img {
+            p {
+                font-size: 20px;
+                font-family: cursive;
+            }
+           .imgmenu {
               display: none;
               width: 900px;
               height: auto;
-           }      
+           }     
+           .heading {
+              display: table;
+              clear: both;
+              border-radius: 20px;
+              width: 900px;
+              padding: 10px;
+              border: 3px solid gray;
+              margin: 0;
+            }
+            .column1 {
+              float: left;
+              width: 50%;
+            }
+            .column2 {
+                padding: 50px 0;
+                text-align:center;
+                float: right;
+                width: 50%;
+            }
+}
         </style>
     </head>
 <body onload=show()>
-    <div>
-        <img id="img1" src="https://svgshare.com/i/w_Q.svg"/>
-        <img id="img2" src="https://svgshare.com/i/w_2.svg"/>
-        <img id="img3" src="https://svgshare.com/i/w_r.svg"/>
-        <img id="img4" src="https://svgshare.com/i/waZ.svg"/>
+    <img src="https://svgshare.com/i/xXi.svg" style="width:900px">
+    
+    <div class="heading">
+    
+        <div class="column1">
+             <img src="https://i.ibb.co/WyLG63z/272200094-4728526507242000-6379905946916613702-n.jpg" style="width:450px;height:450px;">
+        </div>
+        
+        <div class="column2">
+            <img src="https://i.ibb.co/VDSvRwN/flagwhite-logo.jpg" style="width:250px;height:160px;padding:10px;">
+            <p>Order and payment at the Cashier.</p>
+            <p>Do note that we have a dining time of</p>
+            <p>75 minutes due to limited seating capacity.</p>
+        </div>
+        
     </div>
+    
+    <img class="imgmenu" id="img1" src="https://svgshare.com/i/w_Q.svg"/>
+    <img class="imgmenu" id="img2" src="https://svgshare.com/i/w_2.svg"/>
+    <img class="imgmenu" id="img3" src="https://svgshare.com/i/w_r.svg"/>
+    <img class="imgmenu" id="img4" src="https://svgshare.com/i/waZ.svg"/>
+
     <script>
         function show() {
             const d = new Date();
