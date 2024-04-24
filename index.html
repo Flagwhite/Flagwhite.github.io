@@ -92,17 +92,17 @@
     </div> 
 
     <hr>
-    <img class="imgmenu" id="img1" src="https://svgshare.com/i/10Ud.svg"/>    <!-- Food Before 830 -->
-    <img class="imgmenu" id="img2" src="https://svgshare.com/i/y9q.svg"/>    <!-- Drinks Before 830 -->
-    <img class="imgmenu" id="img3" src="https://svgshare.com/i/11n0.svg"/>    <!-- Menu After 830 -->
-    <img class="imgmenu" id="img4" src="https://svgshare.com/i/14fB.svg'"/>    <!-- Alcohol Menu -->
+    <img class="imgmenu" id="img1" src="../../Brunch Menu.svg"/>    <!-- Food Before 830 -->
+    <img class="imgmenu" id="img2" src="../../Drinks Menu.svg"/>    <!-- Drinks Before 830 -->
+    <img class="imgmenu" id="img3" src="../../Dinner Drinks Menu.svg"/>    <!-- Menu After 830 -->
+    <img class="imgmenu" id="img4" src="../../Alcohol Menu"/>    <!-- Alcohol Menu -->
 
     <script>
         function show() {
             const d = new Date();
           let hour = d.getHours();
             let minutes = d.getMinutes();
-            if ((hour >= 9 && hour <= 19) || (hour == 20 && minutes <= 29)) {
+            if ((hour >= 9 && hour <= 19) || (hour == 21 && minutes <= 00)) {
               document.getElementById('img1').style.display = "block"
                 document.getElementById('img2').style.display = "block"
                 document.getElementById('img4').style.display = "block"
