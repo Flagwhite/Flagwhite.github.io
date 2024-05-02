@@ -46,13 +46,11 @@
           let hour = d.getHours();
             let minutes = d.getMinutes();
             if ((hour >= 9 && hour <= 20) || (hour == 20 && minutes <= 59)) {
-              document.getElementById('img1').style.display = "block"
-                document.getElementById('img2').style.display = "block"
-                document.getElementById('img4').style.display = "block"
+              document.getElementById('img3').style.display = "none"
             } 
             else {
-              // document.getElementById('img3').style.display = "block"
-              document.getElementById('img4').style.display = "block"
+              document.getElementById('img1').style.display = "block"
+              document.getElementById('img2').style.display = "block"
             }
         }
     </script>
